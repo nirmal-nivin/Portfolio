@@ -43,13 +43,16 @@ const Contact = () =>{
 
                         <input type="text"
                         name="name"
+                        id=""
                         placeholder="Enter your name"
+                        required
                         className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none" 
                         />
 
                         <input type="text"
                         name="email"
                         placeholder="Enter your email"
+                        required
                         className="p-2 my-4 bg-transparent border-2 rounded-md text-white focus:outline-none" 
                         />
 
@@ -57,6 +60,7 @@ const Contact = () =>{
                          name="message"
                          placeholder="Enter your message"
                          rows="10"
+                         required
                          className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none">
                          </textarea>
 
@@ -67,7 +71,7 @@ const Contact = () =>{
                     </form>
                 </div>
 
-                <div className="font-normal text-xl max-w-screen-lg mx-auto h-full">
+                <div className="flex font-normal text-xl max-w-screen-lg mx-auto h-full">
                     <p>Copyright © 2024 by @Nirmalkumar | All Rights Reserved.</p>
                 </div>
             </div>
