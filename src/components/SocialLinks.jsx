@@ -41,7 +41,7 @@ const SocialLinks = ()=>{
                  Resume <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: './Nirmalkumar-Resume.pdf',
+            href: './Nirmal Kumar-Resume.pdf',
             style: 'rounded-br-md',
             download: true,
         },
