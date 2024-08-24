@@ -1,44 +1,45 @@
 import React from "react";
+import ateaspot from "../assets/ateaspot.png"
+import winyo from "../assets/winyo.png"
 import trip from "../assets/Trip1.png"
 import weather from "../assets/weather2.png"
 import greeden from "../assets/Greenden3.png"
-import nostra from "../assets/Nostra4.png"
-import udemy from "../assets/Udemy5.png"
 import actodo from "../assets/Actodo6.png"
 
 const Project = ()=>{
 
     const Project = [
+  
         {
             id:1,
+            src:ateaspot,
+            demo:" https://nirmal-nivin.github.io/ATEA-SPOT/",
+            code:"https://github.com/nirmal-nivin/ATEA-SPOT",
+        },
+        {
+            id:2,
+            src:winyo,
+            demo: "https://github.com/nirmal-nivin/winyo",
+            code:"https://github.com/nirmal-nivin/winyo",
+        },
+        {
+            id:3,
             src:trip,
             demo:" https://nirmal-nivin.github.io/tripadvisor-clone/",
             code:"https://github.com/nirmal-nivin/tripadvisor-clone",
         },
         {
-            id:2,
+            id:4,
             src:weather,
             demo:"https://react-weather-app-alpha-seven.vercel.app/",
             code:"https://github.com/nirmal-nivin/React-weather-app",
         },
         {
-            id:3,
+            id:5,
             src:greeden,
             demo:"https://nirmal-nivin.github.io/Greenden-Tailwind-css/",
             code:"https://github.com/nirmal-nivin/Greenden-Tailwind-css",
-        },
-        {
-            id:4,
-            src:nostra,
-            demo:"https://nirmal-nivin.github.io/Nostra-js/",
-            code:"https://github.com/nirmal-nivin/Nostra-js",
-        },
-        {
-            id:5,
-            src:udemy,
-            demo:" https://nirmal-nivin.github.io/Udemy-Clone/",
-            code:"https://github.com/nirmal-nivin/Udemy-Clone",
-        },
+        },      
         {
             id:6,
             src:actodo,
